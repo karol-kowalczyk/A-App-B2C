@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../public/assets/fonts/myriad-pro.scss';
+@import '../public/assets/fonts/philosopher.scss';
+
+$aluterrGranat: #162D3B;
+$aluterrCiemnyNiebieski: #214459;
+$szaryStalowy: #94989A;
+$jasnySzary: #F0F0F0;
+$shary: var(--szary, #D3D3D3);
+
+* {
+    margin: 0;
+    color: white;
+}

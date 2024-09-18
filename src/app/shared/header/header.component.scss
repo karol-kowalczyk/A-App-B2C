@@ -1,0 +1,30 @@
+@import '../../../styles.scss';
+
+
+* {
+    background-color: $aluterrGranat;
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 56px;
+    .greeting-div {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .greeting {
+            font-weight: 700;
+        }
+        .user-img-div {
+            img {
+                height: 53px;
+                width: 53px;
+            }
+        }
+    }
+
+}
+
