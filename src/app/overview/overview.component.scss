@@ -12,13 +12,15 @@ h1 {
     justify-content: space-around;
     font-family: 'Philosopher';
     margin: 40px 0 80px;
+
     div {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding:24px;
+        padding: 24px;
         background-color: $aluterrCiemnyNiebieski;
         cursor: pointer;
+
         img {
             height: 70px;
             width: 70px;
@@ -28,46 +30,60 @@ h1 {
 
 .second-section {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     background-color: $jasnySzary;
-    .second-section-div {
+
+    div {
         display: flex;
-        flex-direction: column;
-        padding: 16px 0px 32px 160px;
-        .header-scnd-section {
-            color: $aluterrGranat;
-            font-family: 'Philosopher';
-            font-size: 24px;
-            text-align: center;
-            padding-bottom: 16px;
-        }
-        div {
-            font-family: 'Myriad Pro';
-            color: $aluterrGranat;
-            font-weight: 300;
+
+
+        .second-section-div {
+            display: flex;
+            flex-direction: column;
+            padding: 16px 0px 32px 160px;
+
+            .header-scnd-section {
+                color: $aluterrGranat;
+                font-family: 'Philosopher';
+                font-size: 24px;
+                text-align: center;
+                padding-bottom: 16px;
+            }
+
             div {
+                font-family: 'Myriad Pro';
+                color: $aluterrGranat;
+                font-weight: 300;
+
                 div {
-                    .grey {
-                        color: $szaryStalowy;
-                        font-weight: 100;
+                    div {
+                        .grey {
+                            color: $szaryStalowy;
+                            font-weight: 100;
+                        }
                     }
                 }
             }
         }
     }
+
     .location {
         padding: 16px 160px 32px 0;
+        display: flex;
+        flex-direction: column;
 
         h3 {
             color: $aluterrGranat;
             text-align: center;
             padding-bottom: 8px;
         }
+
         div {
             color: $aluterrGranat;
             text-align: center;
             padding-bottom: 8px;
         }
+
         iframe {
             width: 400px;
             height: 148px;
@@ -77,6 +93,7 @@ h1 {
 
 .d-flex {
     display: flex;
+
     div {
         display: flex;
         flex-direction: column;
@@ -84,12 +101,7 @@ h1 {
     }
 }
 
-.p-absolute {
-    color: $szaryStalowy;
-    font-size: 12px;
-    font-weight: 300;
-    position: absolute;
-    left:0px;
-    bottom: 0px;
-    padding: 8px
+
+.aluterr-address {
+    color: black;
 }
